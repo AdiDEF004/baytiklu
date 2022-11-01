@@ -19,4 +19,62 @@ body button {
   cursor: pointer;
 }
 
+#header {
+  width: 1349px;
+  height: 80px;
+  background: rgba(156, 213, 211, 0.93);
+  backdrop-filter: blur(10px);
+}
+#header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+#header .header--bg {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #253659;
+  margin-left: 200px;
+}
+
+#hero {
+  background: url("../img/all.svg") no-repeat center/cover;
+  height: 700px;
+}
+#hero img {
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+#hero .hero {
+  padding-top: 70px;
+}
+#hero .hero--all {
+  position: absolute;
+  top: 200px;
+  left: 150px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #253659;
+}
+#hero .hero--btn button {
+  position: absolute;
+  top: 350px;
+  left: 150px;
+  width: 200px;
+  height: 60px;
+  background: rgba(37, 54, 89, 0.8);
+  backdrop-filter: blur(5px);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  border: none;
+}
+
 /*# sourceMappingURL=style.css.map */
