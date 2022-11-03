@@ -19,6 +19,37 @@ body button {
   cursor: pointer;
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 #header {
   width: 1349px;
   height: 80px;
@@ -35,7 +66,7 @@ body button {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  color: #253659;
+  color: black;
   margin-left: 200px;
 }
 
@@ -108,6 +139,149 @@ body button {
   text-align: center;
   padding-top: 30px;
   color: #FFFFFF;
+}
+
+#input {
+  background: url("../img/bg.png") no-repeat center/cover;
+  height: 500px;
+}
+#input .input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#input .input img {
+  margin: 150px;
+}
+#input .input--block {
+  margin: 30px;
+  width: 400px;
+  height: 420px;
+  background: rgba(37, 54, 89, 0.8);
+  backdrop-filter: blur(2px);
+}
+#input .input--block h1 {
+  padding: 15px;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #FFFFFF;
+}
+#input .input--block__in input {
+  width: 300px;
+  height: 60px;
+  border: 1px solid #FFFFFF;
+  margin: 20px;
+  background: rgba(37, 54, 89, 0.8);
+  backdrop-filter: blur(2px);
+  color: #FFFFFF;
+  padding: 0 20px;
+}
+#input .input--block__put input {
+  width: 300px;
+  height: 60px;
+  border: 1px solid #FFFFFF;
+  margin: 20px;
+  background: rgba(37, 54, 89, 0.8);
+  backdrop-filter: blur(2px);
+  color: #FFFFFF;
+  padding: 0 20px;
+}
+#input .input--block__btn {
+  margin: 0 20px;
+}
+#input .input--block__btn button {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  color: #253659;
+  width: 217px;
+  height: 60px;
+  transition: 0.4s;
+}
+#input .input--block__btn button:hover {
+  background: #253659;
+  color: #FFFFFF;
+  border: none;
+}
+
+#secret {
+  background: url("../img/Baytik_poselok_View020000.png");
+  width: 1350px;
+  height: 700px;
+}
+#secret .secret {
+  display: flex;
+  justify-content: space-between;
+}
+#secret .secret h1 {
+  padding-top: 118px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  color: #253659;
+}
+#secret .secret p {
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #253659;
+}
+#secret .secret--bg button {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  width: 200px;
+  height: 60px;
+  background: rgba(37, 54, 89, 0.8);
+  backdrop-filter: blur(5px);
+  border: none;
+  margin-top: 300px;
+  margin-right: 85px;
+}
+#secret .secret--bg button:hover {
+  background: #253659;
+  color: green;
+  border: none;
+}
+#secret .secret--all {
+  margin-bottom: 55px;
+  display: flex;
+  width: 1130px;
+  height: 200px;
+  background: rgba(37, 54, 89, 0.8);
+  backdrop-filter: blur(5px);
+}
+#secret .secret--all h1 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+#secret .secret--oll img {
+  margin-left: 150px;
+  padding-top: 40px;
+}
+#secret .secret--oll h1 {
+  margin-left: 120px;
+  padding-top: 10px;
+}
+
+#desc .desc--title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#desc .desc--title h1 {
+  padding: 25px 0;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  color: #253659;
 }
 
 /*# sourceMappingURL=style.css.map */
