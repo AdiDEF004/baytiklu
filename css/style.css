@@ -19,94 +19,68 @@ body button {
   cursor: pointer;
 }
 
-#header {
-  width: 1349px;
-  height: 80px;
-  background: rgba(156, 213, 211, 0.93);
-  backdrop-filter: blur(10px);
-}
-#header .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
-}
-#header .header--bg {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: #253659;
-  margin-left: 200px;
-}
-
-#hero {
-  background: url("../img/all.svg") no-repeat center/cover;
-  height: 700px;
-}
-#hero img {
+.swiper {
   width: 100%;
-  position: relative;
   height: 100%;
 }
-#hero .hero {
-  padding-top: 70px;
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
-#hero .hero--all {
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#house .house--gen {
+  position: relative;
+}
+#house .house--block {
   position: absolute;
-  top: 200px;
-  left: 150px;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 42px;
-  text-transform: uppercase;
-  color: #253659;
+  margin: 15px;
+  left: 70px;
+  top: 300px;
 }
-#hero .hero--all h1 {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 42px;
-  text-transform: uppercase;
-  color: #253659;
-}
-#hero .hero--all h2 {
-  padding: 7px 0;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 42px;
-  text-transform: uppercase;
-  color: #253659;
-}
-#hero .hero--all h3 {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 42px;
-  text-transform: uppercase;
-  color: #253659;
-}
-#hero .hero--btn button {
-  position: absolute;
-  top: 350px;
-  left: 150px;
-  width: 200px;
-  height: 60px;
-  background: rgba(37, 54, 89, 0.8);
-  backdrop-filter: blur(5px);
+#house .house--block h1 {
   font-weight: 600;
   font-size: 18px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+#house .house--block__title {
+  display: flex;
+}
+#house .house--block__title p {
+  font-weight: 600;
+  font-size: 24px;
   line-height: 140%;
   letter-spacing: 0.1em;
   color: #FFFFFF;
-  border: none;
+  margin: 0 10px;
 }
-#hero .hero--icon {
-  font-size: 22px;
-  width: 60px;
-  height: 60px;
-  background: rgba(37, 54, 89, 0.8);
-  backdrop-filter: blur(5px);
-  border-radius: 50px;
-  text-align: center;
-  padding-top: 30px;
+#house .house--block__title h5 {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
   color: #FFFFFF;
 }
 
