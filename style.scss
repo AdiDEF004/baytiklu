@@ -274,3 +274,63 @@
 }
 
 
+#logo {
+  .logo {
+    &--br {
+      h1 {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 140%;
+        letter-spacing: 0.1em;
+        color: #253659;
+        padding-top: 20px;
+      }
+    }
+    &--img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &__h1 {
+      width: 362px;
+      Height: 240px;
+      margin-left: 50px;
+    }
+  }
+}
+
+
+#footer {
+  width: 1440px;
+  height: 360px;
+  background: #253659;
+  .footer {
+    &--title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &__all {
+        p {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 16px;
+          color: #FFFFFF;
+        }
+      }
+      &--vh {
+        h1 {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 25px;
+          color: #FFFFFF;
+        }
+        a {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
