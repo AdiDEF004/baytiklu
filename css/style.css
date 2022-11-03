@@ -61,6 +61,28 @@ body button {
   text-transform: uppercase;
   color: #253659;
 }
+#hero .hero--all h1 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #253659;
+}
+#hero .hero--all h2 {
+  padding: 7px 0;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #253659;
+}
+#hero .hero--all h3 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #253659;
+}
 #hero .hero--btn button {
   position: absolute;
   top: 350px;
@@ -75,6 +97,17 @@ body button {
   letter-spacing: 0.1em;
   color: #FFFFFF;
   border: none;
+}
+#hero .hero--icon {
+  font-size: 22px;
+  width: 60px;
+  height: 60px;
+  background: rgba(37, 54, 89, 0.8);
+  backdrop-filter: blur(5px);
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 30px;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
