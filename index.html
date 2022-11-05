@@ -7,14 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/global.css">
-    <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="media.scss">
-    <link rel="stylesheet" href="style.scss">
-    <script src="css/script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 
@@ -22,7 +16,7 @@
     <div class="container">
         <div class="header">
             <div class="header--img">
-                <img src="./img/logo.svg" alt="">
+                <img src="./img/logo.svg" alt="" data-tilt>
             </div>
             <div class="header--bg">
                 <a href="#">Главная</a>
@@ -75,6 +69,46 @@
     </div>
 
 </section>
+<section id="window">
+    <div class="container">
+        <div class="window">
+            <h1>Строительная Компания</h1>
+            <p>После регистрации наш менеджер
+                свяжется <br> с вами и уточнит все детали</p>
+            <div class="window--btn">
+                <button>Зарегистрироваться</button>
+            </div>
+            <div class="window--modal">
+                <div class="window--modal__bg">
+                    <div class="window--modal__bg--square">
+                        <div class="window--modal__bg--square__icon">
+                            <ion-icon name="close-outline"></ion-icon>
+                        </div>
+                        <div class="window--modal__bg--square__inputs">
+                            <h1>ФИО *</h1>
+                            <input placeholder="Иван Петров" type="text">
+                            <h1>Номер телефона *</h1>
+                            <input placeholder="+996 550 01 22 08" type="text">
+                            <h1>E-mail *</h1>
+                            <input placeholder="example@mail.com" type="text">
+                            <div class="window--modal__bg--square__inputs--bottom-content">
+                                <p>Ваши данные надежно защищены
+                                    <br>и не будут переданы третьим лицам</p>
+                                <div class="window--modal__bg--square__inputs--bottom-content__btn">
+                                    <button>Отправить</button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
 
 <section id="secret">
     <div class="container">
@@ -90,6 +124,7 @@
             </div>
             <div class="secret--bg">
                 <button>Подробнее</button>
+
             </div>
 
 
@@ -180,7 +215,88 @@
 <section id="house">
     <div class="container">
         <div class="house">
-
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="house--gen">
+                            <img src="./img/house.png" alt="">
+                            <div class="house--block">
+                                <h1>Трехэтажный загородный коттедж с плоской крышей</h1>
+                                <div class="house--block__title">
+                                    <p>
+                                        <ion-icon name="expand-outline"></ion-icon>
+                                        335 m2
+                                    </p>
+                                    <h5>2 этажа</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="house--gen">
+                            <img src="./img/house.png" alt="">
+                            <div class="house--block">
+                                <h1>Хай-тек в Дранишниках</h1>
+                                <div class="house--block__title">
+                                    <p>
+                                        <ion-icon name="expand-outline"></ion-icon>
+                                        335 m2
+                                    </p>
+                                    <h5>2 этажа</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="house--gen">
+                            <img src="./img/house.png" alt="">
+                            <div class="house--block">
+                                <h1>Современный коттедж</h1>
+                                <div class="house--block__title">
+                                    <p>
+                                        <ion-icon name="expand-outline"></ion-icon>
+                                        335 m2
+                                    </p>
+                                    <h5>2 этажа</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="house--gen">
+                            <img src="./img/house.png" alt="">
+                            <div class="house--block">
+                                <h1>Хай-тек в Мяглово</h1>
+                                <div class="house--block__title">
+                                    <p>
+                                        <ion-icon name="expand-outline"></ion-icon>
+                                        335 m2
+                                    </p>
+                                    <h5>2 этажа</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="house--gen">
+                            <img src="./img/house.png" alt="">
+                            <div class="house--block">
+                                <h1>Современная классика в Рощино</h1>
+                                <div class="house--block__title">
+                                    <p>
+                                        <ion-icon name="expand-outline"></ion-icon>
+                                        335 m2
+                                    </p>
+                                    <h5>2 этажа</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
     </div>
 </section>
@@ -188,7 +304,7 @@
 <section id="input">
     <div class="container">
         <div class="input">
-            <img src="./img/Logo.png" alt="">
+            <img src="./img/Logo.png" alt="" data-tilt>
             <div class="input--block">
                 <h1>У Вас есть
                     вопрос или
@@ -215,16 +331,12 @@
                 <h1>Наши партнеры</h1>
             </div>
             <div class="logo--img">
-                <img src="./img/15.svg" alt="">
-                <img src="./img/16.svg" alt="">
-                <img src="./img/17.svg" alt="">
-                <img src="./img/18.svg" alt="">
-                <img src="./img/19.svg" alt="">
-                <img src="./img/20.svg" alt="">
-                <div class="logo--img__h1">
-                    <img src="./img/21.svg" alt="">
-                </div>
-
+                <img src="./img/15.svg" alt="" data-tilt>
+                <img src="./img/16.svg" alt="" data-tilt>
+                <img src="./img/17.svg" alt="" data-tilt>
+                <img src="./img/18.svg" alt="" data-tilt>
+                <img src="./img/19.svg" alt="" data-tilt>
+                <img src="./img/20.svg" alt="" data-tilt>
             </div>
 
         </div>
@@ -235,38 +347,48 @@
 <footer id="footer">
     <div class="container">
         <div class="footer">
-            <div class="footer--title">
-                <div class="footer--title__all">
-                    <img src="./img/logo.svg" alt="">
-                    <p>BAYTIK LUX - это профессиональные <br>
-                        услугив области загородного <br>
-                        строительства и архитектурного <br>
-                        проектирования в соответствии с <br>
-                        европейскими стандартами</p>
+            <div class="footer--data">
+                <div class="footer--block">
+                    <img src="./img/50.svg" alt="" data-tilt>
+                    <p>BAYTIK LUX - это профессиональные
+                        услугив области загородного
+                        строительства и архитектурного проектирования в соответствии с европейскими стандартами</p>
                 </div>
-                <div class="footer--title__all--vh">
+                <div class="footer--title">
                     <h1>Меню</h1>
                     <a href="#">Главная</a>
                     <a href="#">О компании</a>
                     <a href="#">ЖК - Байтик</a>
                     <a href="#">Выбрать дом</a>
                 </div>
-                <div class="footer--title__all--vh">
+                <div class="footer--number">
                     <h1>Контакты</h1>
                     <a href="#">0550 01 22 08</a>
                     <a href="#">0777 32 95 46</a>
                 </div>
-                <div class="footer--title__all--vh__icon">
+                <div class="footer--icon">
                     <h1>Мы в социальных сетях</h1>
                     <ion-icon name="logo-facebook"></ion-icon>
-                    <ion-icon name="logo-instagram"></ion-icon>
                     <ion-icon name="logo-linkedin"></ion-icon>
+                    <ion-icon name="logo-vk"></ion-icon>
                     <ion-icon name="logo-youtube"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
                 </div>
-                <div class="footer--title__all--vh__icon--text">
+                <div class="footer--location">
                     <h1>Адрес</h1>
-                    <p><ion-icon name="locate-outline"></ion-icon>г. Бишкек, ул. Токтогула 125/1
-                        Бизнес-центр «Авангард» 1 и 2 этажи</p>
+                    <a href="#">г. Бишкек, ул. Токтогула 125/1 <br>
+                        Бизнес-центр «Авангард» 1 и 2 этажи</a>
+                </div>
+            </div>
+            <hr>
+            <div class="footer--all">
+                <div class="footer--all__one">
+                    <p>2018-2021 “BAYTIK LUX”</p>
+                    <h6>Все права защищены</h6>
+                </div>
+                <div class="footer--all__two">
+                    <a href="#">Политика конфиденциальсности</a>
+                    <p>Сделано с любовью в <span>Paradigma.website</span></p>
                 </div>
             </div>
         </div>
@@ -275,8 +397,8 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-<script src="js/script.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

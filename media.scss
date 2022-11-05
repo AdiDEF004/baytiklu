@@ -1,0 +1,108 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1201px) {
+  #header {
+    width: 100% !important;
+
+    .header {
+      width: 100%;
+      padding: 0;
+
+    }
+  }
+  #input {
+    .input {
+      justify-content: center;
+
+    }
+
+    //.input img {
+    //  margin: 50px;
+    //}
+  }
+  #hero {
+    height: 100% !important;
+
+
+  }
+  #secret {
+    width: 100% !important;
+  }
+  #footer {
+    .footer--data {
+      justify-content: space-around;
+    }
+
+    .footer--block p {
+      font-size: 12px;
+
+    }
+  }
+
+}
+
+@media (max-width: 1024px) {
+  #header .header--bg {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: black;
+    margin-left: 0;
+  }
+  #secret .secret--all {
+    width: 941px !important;
+    height: 239px !important;
+  }
+
+  #input .input img {
+    margin: 190px;
+  }
+  .input img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+
+
+}
+
+@media (max-width: 768px) {
+
+
+  #secret .secret--all {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+}
+
+
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 451px) {
+
+}
+
+@media (max-width: 414px) {
+
+}
+
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
+
